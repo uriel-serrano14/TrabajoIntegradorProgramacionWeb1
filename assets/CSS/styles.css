@@ -9,6 +9,11 @@ body{
     color: #fff;
 }
 
+.margen {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 #container {  
     display: flex;
     flex-direction: column;
@@ -33,4 +38,17 @@ body{
     margin-top: 0px;
     margin-left: 40px;
     margin-right: 40px;
+}
+
+#indice{
+    flex-grow: 4;
+    padding: 10px;
+    white-space: nowrap;
+    border: 1px solid black
+}
+
+a {
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+    color: #d1d1d1;
 }
