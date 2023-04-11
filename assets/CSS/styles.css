@@ -1,0 +1,36 @@
+body{
+    background-color: #040b1a;
+}
+
+.cuerpo{
+    background-color: #182947;
+    margin-left: 150px;
+    margin-right: 150px ;
+    color: #fff;
+}
+
+#container {  
+    display: flex;
+    flex-direction: column;
+    justify-content: Space-around;
+}
+
+#supContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#subTit{
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
