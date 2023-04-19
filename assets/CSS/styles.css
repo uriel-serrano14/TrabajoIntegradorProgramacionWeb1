@@ -64,3 +64,22 @@ p {
 li {
     line-height: 2;
 }
+
+ 
+  .container :hover img {
+    opacity: 0.4;
+  }
+
+  .container img{
+    display: block;
+  }
+
+  .overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
