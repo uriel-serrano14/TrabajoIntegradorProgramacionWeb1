@@ -2,7 +2,7 @@ body{
     background-color: #040b1a;
 }
 
-.cuerpo{
+.menu{
     border: 1px solid #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #182947;
@@ -30,8 +30,8 @@ body{
 
 #logo {
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 3px;
+    right: 6px;
     transition: width .2s;
 }
 
@@ -73,13 +73,13 @@ li {
 }
 
  
-  .container :hover img {
+  .cont :hover img {
     opacity: 0.5;
     width: 240px;
     transition:  width .5s ;
   }
 
-  .container img{
+  .cont img{
     display: block;
     border-radius: 5px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.50);
