@@ -3,6 +3,7 @@ body{
 }
 
 .cuerpo{
+    border: 1px solid #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #182947;
     margin-left: 150px;
@@ -31,6 +32,12 @@ body{
     position: fixed;
     bottom: 0;
     right: 0;
+    transition: width .2s;
+}
+
+#logo :hover img{
+    width: 100px;
+    transition: width .2s;
 }
 
 .subTit{
@@ -67,11 +74,15 @@ li {
 
  
   .container :hover img {
-    opacity: 0.4;
+    opacity: 0.5;
+    width: 240px;
+    transition:  width .5s ;
   }
 
   .container img{
     display: block;
+    border-radius: 5px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.50);
   }
 
   .overlay {
@@ -80,6 +91,6 @@ li {
     left: 0;
     right: 0;
     opacity: 1;
-    transition: .5s ease;
-    background-color: #008CBA;
+    transition: width .4s ;
   }
+
